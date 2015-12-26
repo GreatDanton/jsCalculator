@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:700);
+
+* {
+  margin: 0 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5  {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h5 {
+  font-size: 8px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+body {
+  min-height: 800px;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px 20px;
+  min-width: 500px;
+  max-width: 1000px;
+  position: absolute;
+  margin-top: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.case {
+  max-width: 350px;
+  min-height: 300px;
+  padding: 0 0 20px 0;
+  background-color: #D7E8DE;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: inset 5px 0 10px -5px #635e61, inset -5px 0 10px -5px #635e61, inset 0px -5px 10px -2px #635e61, 0 0 1px 2px #635e61, 0 10px 20px 0 #494547;
+}
+
+.title {
+  display: inline-flex;
+  padding: 40px 0 0 0;
+  width: 100%;
+  font-family: 'Russo One', sans-serif;
+  color: #444;
+  justify-content: center;
+}
+
+.display-container {
+  padding: 0 30px;
+}
+
+.display {
+  display: flex;
+  margin: 10px 20px 0 20px;
+  min-height: 60px;
+  background-color: #CCEAC6;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-x: hidden;
+  padding: 0px 5px;
+  font-size: 30px;
+  line-height: 58px;
+  flex-direction: row-reverse;
+  color: #444;
+  font-family: "Roboto Mono";
+}
+
+.button-row-5 {
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  margin: 5px;
+}
+
+.button {
+  /* used to display divs same as buttons */
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  height: 35px;
+  font-size: 20px;
+  min-width: 55px;
+  width: auto;
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px 5px 0 5px;
+  line-height: 35px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+  .button:hover {
+    color: #fff;
+    background: #27292a;
+  }
+
+  .button:active {
+    transform: translate(0px, 1px);
+  }
+
+.red {
+  background-color: #9e0707;
+}
+
+.red:hover{
+  background-color: #c64040;
+}
